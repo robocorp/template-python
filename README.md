@@ -1,11 +1,11 @@
 # Template: Basic Python only robot
 
-Get started with just Python
+Get started with just Python.
 
 This template robot:
 
-- Uses only Python 
-- Provides a simple template to start from (`tasks.py`).
+- Uses only Python.
+- Provides a simple template to start from (`task.py`).
 
 ## Learning materials
 
