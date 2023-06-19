@@ -6,10 +6,12 @@ channels:
   - conda-forge
 
 dependencies:
-  # Define conda-forge packages here -> https://anaconda.org/search
-  # When available, prefer the conda-forge packages over pip as installations are more efficient.
-  - python=3.9.13               # https://pyreadiness.org/3.9/ 
-  - pip=22.1.2                  # https://pip.pypa.io/en/stable/news/
+  - python=3.9.16                   # https://pyreadiness.org/3.9/
+  - pip=22.1.2                      # https://pip.pypa.io/en/stable/news/
   - pip:
-      # Define pip packages here -> https://pypi.org/
-      - rpaframework==22.5.3    # https://rpaframework.org/releasenotes.html
+      - rpaframework==23.3.0        # https://rpaframework.org/releasenotes.html
+      - robocorp-tasks==1.0.0       # https://pypi.org/project/robocorp-tasks/
+      - robocorp-browser==1.0.1     # https://pypi.org/project/robocorp-browser/
+      - robocorp-excel==0.4.0       # https://pypi.org/project/robocorp-excel/
+      - robocorp-workitems==1.0.1   # https://pypi.org/project/robocorp-workitems/
+      - robocorp-http==0.2.0        # https://pypi.org/project/robocorp-http/
