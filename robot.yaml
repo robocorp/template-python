@@ -11,10 +11,11 @@ environmentConfigs:
   - environment_darwin_amd64_freeze.yaml
   - conda.yaml
 
-ignoreFiles:
-  - .gitignore
 artifactsDir: output
+
 PATH:
   - .
 PYTHONPATH:
   - .
+ignoreFiles:
+  - .gitignore

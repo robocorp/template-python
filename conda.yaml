@@ -6,7 +6,7 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.10.12                # https://pyreadiness.org/3.9
+  - python=3.10.12                # https://pyreadiness.org/3.10
   - pip=23.2.1                    # https://pip.pypa.io/en/stable/news
   - truststore=0.7.0              # https://github.com/sethmlarson/truststore/blob/main/CHANGELOG.md
   - pip:
